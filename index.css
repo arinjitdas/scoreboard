@@ -1,0 +1,109 @@
+body {
+    font-family: 'Timer Font', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #101010;
+    justify-content: start;
+    margin: 48px auto;
+    gap: 0;
+}
+
+.container {
+    margin: 24px auto;
+    display: flex;
+    background-color: #1B244A;
+    justify-content: space-evenly;
+    max-height: 420px;
+    gap: 96px;
+    padding: 48px 96px;
+    border: 2px solid #9AABD8;
+    border-radius: 8px
+}
+
+.container H3 {
+    font-family: Verdana;
+    font-size: 40px;
+    line-height: 100%;
+    color: #EEE;
+    margin: 0;
+}
+
+.score-column {
+    text-align: center;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.score-frame {
+    background-color: #080001;
+    color: #F94F6D;
+    text-align: center;
+    width: 160px;
+    padding: 20px 10px;
+    display: flex;
+    border-radius: 8px;
+
+}
+
+.score-frame p {
+    font-size: 90px;
+    margin: 4px auto 0 auto;
+    line-height: 120%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+}
+
+.plus-btn {
+    /*Button container properties*/
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background-color: #9AABD800;
+
+    /*Button font properties*/
+    font-family: 'Timer Font', sans-serif;
+    font-size: 18px;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.plus-btn:hover {
+    /*Button container properties*/
+    background-color: #9AABD820;
+    
+}
+
+
+#reset {
+    display: flex;
+    margin: 36px auto;
+}
+
+#reset-btn {
+    padding: 12px 24px;
+    font-family: 'Verdana', sans-series;
+    font-size: 16px;
+    background-color: #F94F6D;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+
+
+
+@font-face {
+    font-family: 'Timer Font';
+    src: url('/fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
